@@ -1,7 +1,7 @@
-grant connect to prt;
-grant dba to prt;
+grant connect to geo;
+grant dba to geo;
 
-util.setUserOption 'asamium.default.domain', 'prt';
+util.setUserOption 'asamium.default.domain', 'geo';
 
 meta.defineType 'direction';
 meta.defineType 'distance:INTEGER';
